@@ -48,7 +48,7 @@ header {
     margin: 0;
     display: inline;
   }
-
+/* apply styles to <footer> */
   footer {
     background: #fce138;
     width: 100%;
@@ -94,3 +94,31 @@ header {
   footer a {
     color: #024e76;
   }
+/* apply styles to padding */
+  section {
+    padding: 60px;
+  }
+
+/* Hero Style Start */
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* Hero Style End */
+
+/* apply styles to form element*/
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+}
