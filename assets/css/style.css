@@ -349,6 +349,54 @@ header {
   color: var(--tertiary-color);
   font-size: 18px;
 }
+/* animation specific changes to trainers */
+.trainer-img {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  padding: 15px;
+  align-items: flex-end;
+}
+
+.trainer-1 {
+  background-image: url("../images/trainer-1.jpg");
+  background-size: cover;
+}
+
+.trainer-2 {
+  background-image: url("../images/trainer-2.jpg");
+  background-size: cover;
+}
+
+.trainer-3 {
+  background-image: url("../images/trainer-3.jpg");
+  background-size: cover;
+}
+
+.trainer-img::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(252, 225, 56, 0.3), #024e76);
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.trainer-img h3 {
+  position: relative;
+  z-index: 9998;
+  font-size: 28px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.trainer-img h4 {
+  position: relative;
+  z-index: 9998;
+  font-size: 22px;
+  display: none;
+}
 
 /* changes to trainers */
 .trainers {
